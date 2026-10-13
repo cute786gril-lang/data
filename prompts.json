@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-12",
+  "categories": [
+    {
+      "id": "all",
+      "name": "All Prompts"
+    },
+    {
+      "id": "realistic",
+      "name": "Photography"
+    },
+    {
+      "id": "scifi",
+      "name": "Sci-Fi & Cyberpunk"
+    },
+    {
+      "id": "anime",
+      "name": "Anime & Manga"
+    },
+    {
+      "id": "video",
+      "name": "Motion & Video"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "prompt-001",
+      "title": "Cyberpunk Neo-Tokyo Rain Alley",
+      "description": "Atmospheric cyberpunk street flooded in neon reflections.",
+      "promptText": "Cinematic 35mm photograph of a solitary cybernetic detective walking down a narrow neon-lit alley in Neo-Tokyo during heavy rain. 8k resolution, Masterpiece --ar 16:9",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+      "categoryId": "scifi",
+      "tags": ["Cyberpunk", "Tokyo", "Neon", "Rain"],
+      "contentType": "image",
+      "isFeatured": true,
+      "isNew": false,
+      "isTrending": true,
+      "isPublished": true,
+      "sortOrder": 1,
+      "negativePrompt": "blurry, low quality, oversaturated",
+      "aspectRatio": "16:9",
+      "targetAiModel": "Midjourney v6"
+    },
+    {
+      "id": "prompt-002",
+      "title": "Orbital Sunset Drone Flythrough",
+      "description": "High-altitude cinematic drone dive over misty alpine peaks.",
+      "promptText": "Drone shot: Wide angle aerial camera descending smoothly through a sea of golden clouds toward a dramatic snowy mountain summit. 60fps cinematic slow motion.",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
+      "categoryId": "video",
+      "tags": ["Drone", "Sunset", "Mountains"],
+      "contentType": "video",
+      "isFeatured": true,
+      "isNew": true,
+      "isTrending": true,
+      "isPublished": true,
+      "sortOrder": 2,
+      "negativePrompt": "jitter, camera shake, artifacts",
+      "aspectRatio": "16:9",
+      "targetAiModel": "Runway Gen-3 / Sora",
+      "cameraMotion": "Slow smooth descent with 15-degree tilt down, 60fps"
+    }
+  ]
+}
