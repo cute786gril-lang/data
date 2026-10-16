@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-16",
   "categories": [
     {
       "id": "all",
@@ -30,8 +30,14 @@
       "description": "Atmospheric cyberpunk street flooded in neon reflections.",
       "promptText": "Cinematic 35mm photograph of a solitary cybernetic detective walking down a narrow neon-lit alley in Neo-Tokyo during heavy rain. 8k resolution, Masterpiece --ar 16:9",
       "thumbnailUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+      "videoUrl": null,
       "categoryId": "scifi",
-      "tags": ["Cyberpunk", "Tokyo", "Neon", "Rain"],
+      "tags": [
+        "Cyberpunk",
+        "Tokyo",
+        "Neon",
+        "Rain"
+      ],
       "contentType": "image",
       "isFeatured": true,
       "isNew": false,
@@ -40,7 +46,8 @@
       "sortOrder": 1,
       "negativePrompt": "blurry, low quality, oversaturated",
       "aspectRatio": "16:9",
-      "targetAiModel": "Midjourney v6"
+      "targetAiModel": "Midjourney v6",
+      "cameraMotion": null
     },
     {
       "id": "prompt-002",
@@ -48,8 +55,13 @@
       "description": "High-altitude cinematic drone dive over misty alpine peaks.",
       "promptText": "Drone shot: Wide angle aerial camera descending smoothly through a sea of golden clouds toward a dramatic snowy mountain summit. 60fps cinematic slow motion.",
       "thumbnailUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
       "categoryId": "video",
-      "tags": ["Drone", "Sunset", "Mountains"],
+      "tags": [
+        "Drone",
+        "Sunset",
+        "Mountains"
+      ],
       "contentType": "video",
       "isFeatured": true,
       "isNew": true,
@@ -60,6 +72,81 @@
       "aspectRatio": "16:9",
       "targetAiModel": "Runway Gen-3 / Sora",
       "cameraMotion": "Slow smooth descent with 15-degree tilt down, 60fps"
+    },
+    {
+      "id": "prompt-003",
+      "title": "Hyperrealistic Bioluminescent Jellyfish",
+      "description": "Deep-sea creature glowing with electric violet and cyan hues.",
+      "promptText": "National Geographic macro photography of a mystical translucent jellyfish in the deep ocean, glowing cyan and violet tentacles, floating particles, caustic light patterns, 8k --ar 4:5",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80",
+      "videoUrl": null,
+      "categoryId": "realistic",
+      "tags": [
+        "Macro",
+        "Ocean",
+        "Photography",
+        "Bioluminescent"
+      ],
+      "contentType": "image",
+      "isFeatured": true,
+      "isNew": true,
+      "isTrending": false,
+      "isPublished": true,
+      "sortOrder": 3,
+      "negativePrompt": "noisy, dark grain, cartoon, illustration",
+      "aspectRatio": "4:5",
+      "targetAiModel": "Midjourney v6",
+      "cameraMotion": null
+    },
+    {
+      "id": "prompt-004",
+      "title": "Studio Ghibli Summer Tea Garden",
+      "description": "Hand-painted anime landscape with warm sunlight and lush greens.",
+      "promptText": "Studio Ghibli aesthetic, anime background, peaceful wooden tea house surrounded by wild hydrangeas, fluffy white cumulus clouds in bright blue sky, watercolor gouache, high detail --ar 16:9",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=800&q=80",
+      "videoUrl": null,
+      "categoryId": "anime",
+      "tags": [
+        "Anime",
+        "Ghibli",
+        "Peaceful",
+        "Garden"
+      ],
+      "contentType": "image",
+      "isFeatured": false,
+      "isNew": false,
+      "isTrending": true,
+      "isPublished": true,
+      "sortOrder": 4,
+      "negativePrompt": "photorealistic, 3d render, gritty, dark",
+      "aspectRatio": "16:9",
+      "targetAiModel": "Niji 6 / DALL-E 3",
+      "cameraMotion": null
+    },
+    {
+      "id": "prompt-005",
+      "title": "Hypercar Night Drift in Neon City",
+      "description": "Fast tracking camera following an electric hypercar around city bends.",
+      "promptText": "Fast tracking shot: Low camera chasing a matte black electric hypercar with glowing blue aerodynamics drifting on wet asphalt under neon signs, 60fps dynamic motion.",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "categoryId": "video",
+      "tags": [
+        "Supercar",
+        "Night",
+        "Drift",
+        "Fast"
+      ],
+      "contentType": "video",
+      "isFeatured": false,
+      "isNew": true,
+      "isTrending": true,
+      "isPublished": true,
+      "sortOrder": 5,
+      "negativePrompt": "blurry car, warped wheels, stuttering",
+      "aspectRatio": "16:9",
+      "targetAiModel": "Kling AI / Runway",
+      "cameraMotion": "Low tracking shot with whip pan follow"
     }
   ]
 }
